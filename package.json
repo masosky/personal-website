@@ -6,8 +6,7 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-mail-form": "^2.0.2",
-    "react-scripts": "2.1.1",
-    "yarn": "^1.19.1"
+    "react-scripts": "2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
