@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import ReactGA from 'react-ga';
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <section id="about">
         <div className="row">
