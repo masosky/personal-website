@@ -23,12 +23,14 @@ let resumeData = {
       className: "fa fa-twitter"
     }
   ],
-  aboutme: "Co-Founder and CTO at Relevanzz.",
-  currentJob: `At Relevanzz we are solving the problem of e-mail marketing: Nobody reads promotional emails.
+  aboutme: `Co-Founder and CTO at Relevanzz. 
+  I have Spanish and British citizenship. I am a curious person who looks forward to learning things every day. I am really passionate about technology, teaching, and coaching. I am the author of two Java manuals, you can download it from my website. I love teaching students and coaching people. I do really like to interact with groups to contribute to my ideas.
 
-    We are building software for e-commerce companies to take their email marketing strategies into Social Ads. Our goal is to help companies to create more intimate relations with their customers, increasing brand awareness, retention and advocacy.
-    
-    Our test customers have increased their reach from 6% to 70% and multiplied the revenues derived from their campaigns up to 4 times.`,
+Related to technology, my main fields of interests are Java, Big Data, Computer Science, Project Management and Coaching.
+
+I obtained my postgraduate in Big Data Management and Analytics, Big Data and Data Science from the UPC School of Professional & Executive Development in 2016 and my B.S. in Audiovisual Systems Engineering(Telecommunication degree) from Universitat Politècnica de Catalunya in 2015, after completing my thesis on Object tracking using real-world coordinates at Institut für Nachrichtenübertragung in Technische Universität Berlin.`,
+  currentJob: `Relevanzz helps ecommerce brands drive customer loyalty with hyper-targeted Facebook & Instagram Ad campaigns.
+Our software platform uses customer data to improve Ad relevance, empowering Marketers to create, manage and streamline campaigns that encourage repeat sales and engagement.`,
   address: "Barcelona",
   website: "https://relevanzz.com",
   education: [
@@ -37,26 +39,34 @@ let resumeData = {
         "UPC School. School of Professionals & Executive Development",
       specialization: "Big Data Management & Analytics",
       MonthOfPassing: "July",
-      YearOfPassing: "2015"
+      YearOfPassing: "2016"
       // Achievements: "Some Achievements"
     },
     {
       UniversityName: "UPC. Universitat Politècnica de Catalunya",
       specialization: "Bachelor degree in Audiovisual Systems",
       MonthOfPassing: "March",
-      YearOfPassing: "2011"
+      YearOfPassing: "2015"
       // Achievements: "Some Achievements"
     },
     {
       UniversityName: "Technische Universität Berlin",
       specialization: "Bachelor Thesis",
       MonthOfPassing: "February",
-      YearOfPassing: "2011",
+      YearOfPassing: "2015",
       Achievements:
         "Object Tracking with multiple cameras using real world coordinates"
     }
   ],
   work: [
+    {
+      CompanyName: "Relevanzz",
+      specialization: "Co-Founder and CTO",
+      MonthOfLeaving: "-",
+      YearOfLeaving: "-",
+      Achievements: `Working as a CTO and Co-Founder gave me a big picture of how to run a company. As a Founder, I am working in all areas as business, marketing, sales and technology.
+      My main role is to design and implement the software product that we offer. My daily work involves product design (UI/UX), infrastructure and developing.`
+    },
     {
       CompanyName: "eDreams ODIGEO",
       specialization: "Software Engineer - Machine Learning POD",
