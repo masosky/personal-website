@@ -29,8 +29,7 @@ let resumeData = {
 Related to technology, my main fields of interests are Java, Big Data, Computer Science, Project Management and Coaching.
 
 I obtained my postgraduate in Big Data Management and Analytics, Big Data and Data Science from the UPC School of Professional & Executive Development in 2016 and my B.S. in Audiovisual Systems Engineering(Telecommunication degree) from Universitat Politècnica de Catalunya in 2015, after completing my thesis on Object tracking using real-world coordinates at Institut für Nachrichtenübertragung in Technische Universität Berlin.`,
-  currentJob: `Relevanzz helps ecommerce brands drive customer loyalty with hyper-targeted Facebook & Instagram Ad campaigns.
-Our software platform uses customer data to improve Ad relevance, empowering Marketers to create, manage and streamline campaigns that encourage repeat sales and engagement.`,
+  currentJob: `CTO and Co-Founder at Relevanzz`,
   address: "Barcelona",
   website: "https://relevanzz.com",
   education: [

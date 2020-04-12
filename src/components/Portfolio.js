@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 export default class Porfolio extends Component {
+  componentDidMount() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
   render() {
     let resumeData = this.props.resumeData;
-    ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <section id="portfolio">
       <div className="row">

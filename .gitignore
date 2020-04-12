@@ -65,3 +65,6 @@ cx-*
 
 # Ignore clickhouse volume
 clickhouse/volume
+
+.cache
+public

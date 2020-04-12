@@ -3,9 +3,12 @@ import ReactContactForm from "react-mail-form";
 import ReactGA from 'react-ga';
 
 export default class ContactUs extends Component {
+  componentDidMount() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
   render() {
     let resumeData = this.props.resumeData;
-    ReactGA.pageview(window.location.pathname + window.location.search);
+
     return (
       <section id="contact">
         <div className="row section-head">
@@ -23,7 +26,7 @@ export default class ContactUs extends Component {
           </aside>
     </div>*/}
         <div className="row">
-          <ReactContactForm to="xavier.mas.le@gmail.com" buttonText="Send"/>
+          <ReactContactForm to="xavier.mas.le@gmail.com" buttonText="Send" />
         </div>
       </section>
     );
