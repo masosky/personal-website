@@ -13,7 +13,6 @@ import { withPrefix } from "gatsby"
 
 class App extends Component {
   componentDidMount() {
-    ReactGA.initialize("UA-110555374-1");
     ReactGA.pageview(window.location.pathname + window.location.search);
   }
   render() {
