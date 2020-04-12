@@ -61,8 +61,8 @@ I obtained my postgraduate in Big Data Management and Analytics, Big Data and Da
     {
       CompanyName: "Relevanzz",
       specialization: "Co-Founder and CTO",
-      MonthOfLeaving: "-",
-      YearOfLeaving: "-",
+      MonthOfLeaving: "",
+      YearOfLeaving: "",
       Achievements: `Working as a CTO and Co-Founder gave me a big picture of how to run a company. As a Founder, I am working in all areas as business, marketing, sales and technology.
       My main role is to design and implement the software product that we offer. My daily work involves product design (UI/UX), infrastructure and developing.`
     },
