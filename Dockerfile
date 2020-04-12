@@ -1,7 +1,7 @@
 FROM node:10.16.3 as build-deps
 WORKDIR /usr/src/app
 #COPY package.json yarn.lock ./
-COPY . ./usr/src/app
+COPY ./ ./usr/src/app
 RUN yarn
 RUN yarn clean
 RUN yarn build
