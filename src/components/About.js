@@ -1,9 +1,6 @@
 import React, { Component } from "react";
-import ReactGA from 'react-ga';
+
 export default class About extends Component {
-  componentDidMount() {
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  }
   render() {
     let resumeData = this.props.resumeData;
     return (

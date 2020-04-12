@@ -1,13 +1,9 @@
 import React, { Component } from "react";
 import ReactContactForm from "react-mail-form";
-import ReactGA from 'react-ga';
 
 export default class ContactUs extends Component {
-  componentDidMount() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }
   render() {
-    let resumeData = this.props.resumeData;
+    //let resumeData = this.props.resumeData;
 
     return (
       <section id="contact">

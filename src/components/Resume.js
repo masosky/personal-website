@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import ReactGA from 'react-ga';
 
 export default class Resume extends Component {
-  componentDidMount() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }
+
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -20,7 +17,7 @@ export default class Resume extends Component {
             {resumeData.education &&
               resumeData.education.map(item => {
                 return (
-                  <div className="row item">
+                  <div className="row item" key={item.UniversityName}>
                     <div className="twelve columns">
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
@@ -48,7 +45,7 @@ export default class Resume extends Component {
             {resumeData.work &&
               resumeData.work.map(item => {
                 return (
-                  <div className="row item">
+                  <div className="row item" key={`${item.CompanyName}-${item.MonthOfLeaving}`}>
                     <div className="twelve columns">
                       <h3>{item.CompanyName}</h3>
                       <p className="info">
@@ -95,7 +92,7 @@ export default class Resume extends Component {
               {resumeData.skills &&
                 resumeData.skills.map(item => {
                   return (
-                    <li>
+                    <li key={item.skillname}>
                       {item.skillname}
                     </li>
                   );
