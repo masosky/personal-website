@@ -67,4 +67,5 @@ cx-*
 clickhouse/volume
 
 .cache
-public
+
+public/**/*

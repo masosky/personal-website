@@ -6,7 +6,8 @@ COPY . ./
 RUN yarn clean
 RUN yarn build
 
-FROM nginx:1.12-alpine
-COPY --from=build-deps /usr/src/app/public /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+#FROM nginx:1.12-alpine
+#COPY --from=build-deps /usr/src/app/public /usr/share/nginx/html
+#EXPOSE 80
+#CMD ["nginx", "-g", "daemon off;"]
+CMD ["yarn", "serve"]
