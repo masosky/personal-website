@@ -1,7 +1,7 @@
 let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Xavier Mas Leszkiewicz",
-  role: "Entrepeneur, Sotware Engineer and Teacher",
+  role: "Entrepeneur, Sotware Engineer Teacher and Music producer",
   linkedinId: "xavier-mas-leszkiewicz",
   skypeid: "xmasle.telecos",
   roleDescription:
@@ -24,7 +24,7 @@ let resumeData = {
     },
   ],
   aboutme: `I am a curious person who looks forward to learning things every day. I am really passionate about technology, teaching, entrepreneurship and music.
-  My hobbies are calisthenics, dancing and music producing. <br/>
+  My hobbies are calisthenics, dancing and music producing. \n
 I obtained my postgraduate in Big Data Management and Analytics, Big Data and Data Science from the UPC School of Professional & Executive Development in 2016 and my B.S. in Audiovisual Systems Engineering(Telecommunication degree) from Universitat Politècnica de Catalunya in 2015, after completing my thesis on Object tracking using real-world coordinates at Institut für Nachrichtenübertragung in Technische Universität Berlin.`,
   currentJob: `CTO and Co-Founder at Relevanzz`,
   address: "Barcelona",
