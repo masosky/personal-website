@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "xavier-mas-leszkiewicz",
   skypeid: "xmasle.telecos",
   roleDescription:
-    "A curious person who looks forward to learning things every day. I am really passionate about technology, teaching, entrepreneurship and music.",
+    "A curious person who looks forward to learning things every day. I am really passionate about technology, sports, entrepreneurship and music.",
   socialLinks: [
     {
       name: "linkedin",
