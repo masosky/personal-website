@@ -22,6 +22,16 @@ let resumeData = {
       url: "https://twitter.com/xmasle",
       className: "fa fa-twitter",
     },
+    {
+      name: "youtube",
+      url: "https://www.youtube.com/channel/UCl6lQmCSE8LMItNFyOEw6Hw",
+      className: "fa fa-youtube",
+    },
+    {
+      name: "instagram",
+      url: "https://instagram.com/xavyxmusic",
+      className: "fa fa-instagram",
+    }
   ],
   aboutme: `I am a curious person who looks forward to learning things every day. I am really passionate about technology, teaching, entrepreneurship and music.
   My hobbies are calisthenics, dancing and music producing. \n
@@ -143,7 +153,7 @@ I obtained my postgraduate in Big Data Management and Analytics, Big Data and Da
   aboutXavyx: "I am an amateur music producer who really enjoys creating Deep House tracks. I am super excited to collaborate with different producers in order to learn and improve my skills.",
   youTubeChannel: "https://www.youtube.com/channel/UCl6lQmCSE8LMItNFyOEw6Hw",
   soundCloud: "https://soundcloud.com/xavier-mas-leszkiewicz/",
-  xavyxInstagram: "https://instagram.com/xavyx",
+  xavyxInstagram: "https://instagram.com/xavyxmusic",
 };
 
 export default resumeData;
