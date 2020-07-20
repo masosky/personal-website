@@ -140,6 +140,10 @@ I obtained my postgraduate in Big Data Management and Analytics, Big Data and Da
       name: "Some technical guy",
     },
   ],
+  aboutXavyx: "I am an amateur music producer who really enjoys creating Deep House tracks. I am super excited to collaborate with different producers in order to learn and improve my skills.",
+  youTubeChannel: "https://www.youtube.com/channel/UCl6lQmCSE8LMItNFyOEw6Hw",
+  soundCloud: "https://soundcloud.com/xavier-mas-leszkiewicz/",
+  xavyxInstagram: "https://instagram.com/xavyx",
 };
 
 export default resumeData;

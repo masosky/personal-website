@@ -9,6 +9,7 @@
    a. General Styles
    b. Header Styles
    c. About Section
+   m. Music Section
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
@@ -52,7 +53,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -139,6 +140,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    position: fixed;
    left: 0;
    top: 0;
+   background-color: #161415;
 }
 .opaque { background-color: #333; }
 
@@ -229,6 +231,62 @@ ul#nav li.current a { color: #11ABB0; }
    margin-right: 15px;
    font-size: 20px;
 }
+
+/* ------------------------------------------------------------------ */
+/* m. Music Section
+/* ------------------------------------------------------------------ */
+
+#music {
+   background: rgb(255, 255, 255);
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#music a, #music a:visited  { color: rgb(88, 88, 88); }
+#music a:hover, #music a:focus { color: #11ABB0; }
+
+#music h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: rgb(0, 0, 0);
+   margin-bottom: 12px;
+}
+
+#music h5 {
+   color: rgb(0, 0, 0);
+   margin-bottom: 12px;
+   margin-top: 20px;
+}
+
+#music p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#music .profile-pic {
+   position: relative;
+   /*width: 120px;
+   height: 120px;*/
+   border-radius: 100%;
+}
+#music .contact-details { width: 41.66667%; }
+#music .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#music .main-col { padding-right: 5%; }
+#music .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#music .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#music .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
 
 
 /* ------------------------------------------------------------------ */
