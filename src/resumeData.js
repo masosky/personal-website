@@ -1,7 +1,7 @@
 let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Xavier Mas Leszkiewicz",
-  role: "Entrepeneur, Sotware Engineer Teacher and Music producer",
+  role: "Entrepeneur, Sotware Engineer, Teacher and Music producer",
   linkedinId: "xavier-mas-leszkiewicz",
   skypeid: "xmasle.telecos",
   roleDescription:
