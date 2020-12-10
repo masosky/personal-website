@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "xavier-mas-leszkiewicz",
   skypeid: "xmasle.telecos",
   roleDescription:
-    "A curious person who looks forward to learning things every day. I am really passionate about technology, sports, entrepreneurship and music.",
+    "A curious person who looks forward to learning things every day.",
   socialLinks: [
     {
       name: "linkedin",
@@ -33,7 +33,7 @@ let resumeData = {
       className: "fa fa-instagram",
     }
   ],
-  aboutme: `I am a curious person who looks forward to learning things every day. I am really passionate about technology, teaching, entrepreneurship and music.
+  aboutme: `I am a curious person who looks forward to learning things every day. I am passionate about technology, teaching, entrepreneurship and music.
   My hobbies are calisthenics, dancing and music producing. \n
 I obtained my postgraduate in Big Data Management and Analytics, Big Data and Data Science from the UPC School of Professional & Executive Development in 2016 and my B.S. in Audiovisual Systems Engineering (Telecommunication degree) from Universitat Politècnica de Catalunya in 2015, after completing my thesis on Object tracking using real-world coordinates at Institut für Nachrichtenübertragung in Technische Universität Berlin.`,
   currentJob: `CTO and Co-Founder at Relevanzz`,
@@ -80,8 +80,8 @@ I obtained my postgraduate in Big Data Management and Analytics, Big Data and Da
       YearOfLeaving: "2019",
       Achievements: `Working as a senior software engineer at Machine Learning Team at eDreams Odigeo.
       My goal is to design and provide a robust back-end infrastructure capable to serve different Machine Learning technologies.
-      I am working really close to Data Science and providing the latest technology to my company.
-      Basically working with Java, Python, Docker, Maven, Kafka, Kuberntes, Kibana, Elastic Search and related technologies.`,
+      I am working close to Data Science and providing the latest technology for my company.
+      Programming with Java, Python, Docker, Maven, Kafka, Kubernetes, Kibana, Elastic Search and related technologies.`,
     },
     {
       CompanyName: "eDreams ODIGEO",
@@ -99,7 +99,7 @@ I obtained my postgraduate in Big Data Management and Analytics, Big Data and Da
       YearOfLeaving: "2017",
       Achievements: `Working in a government environment involving a wide variety of technologies and different operating systems. Managing more than 250,000 identities and Sign-On protection for these identities.
       Responsible for migration of many applications and responsible for improving or creating scripts using Oracle Identity Manager
-      Mostly focused on Java applications and similar. Dealing with many technologies as Active Directory, Oracle database, Visual Basic, Oracle Identity Manager, Siteminder (SSO) and frameworks as Spring or Struts.
+      Mostly focused on Java applications and similar. Dealing with many technologies like Active Directory, Oracle database, Visual Basic, Oracle Identity Manager, Siteminder (SSO) and frameworks as Spring or Struts.
       `,
     },
   ],
