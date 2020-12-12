@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "xavier-mas-leszkiewicz",
   skypeid: "xmasle.telecos",
   roleDescription:
-    "A curious person who looks forward to learning things every day.",
+    "A curious person who looks forward to learning things every day. ",
   socialLinks: [
     {
       name: "linkedin",
