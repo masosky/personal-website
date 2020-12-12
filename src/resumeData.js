@@ -36,7 +36,7 @@ let resumeData = {
   aboutme: `I am a curious person who looks forward to learning things every day. I am passionate about technology, teaching, entrepreneurship and music.
   My hobbies are calisthenics, dancing and music producing. \n
 I obtained my postgraduate in Big Data Management and Analytics, Big Data and Data Science from the UPC School of Professional & Executive Development in 2016 and my B.S. in Audiovisual Systems Engineering (Telecommunication degree) from Universitat Politècnica de Catalunya in 2015, after completing my thesis on Object tracking using real-world coordinates at Institut für Nachrichtenübertragung in Technische Universität Berlin.`,
-  currentJob: `CTO and Co-Founder at Relevanzz`,
+  currentJob: `Senior Software Engineer at Clevertech`,
   address: "Barcelona",
   website: "https://relevanzz.com",
   education: [
@@ -66,10 +66,17 @@ I obtained my postgraduate in Big Data Management and Analytics, Big Data and Da
   ],
   work: [
     {
-      CompanyName: "Relevanzz",
-      specialization: "Co-Founder and CTO",
+      CompanyName: "Clevertech",
+      specialization: "Software Engineer",
       MonthOfLeaving: "",
       YearOfLeaving: "",
+      Achievements: `Working as a Senior Software Engineer. Mostly focus with NodeJs and React.`,
+    },
+    {
+      CompanyName: "Relevanzz",
+      specialization: "Co-Founder and CTO",
+      MonthOfLeaving: "July",
+      YearOfLeaving: "2020",
       Achievements: `Working as a CTO and Co-Founder gave me a big picture of how to run a company. As a Founder, I am working in all areas as business, marketing, sales and technology.
       My main role is to design and implement the software product that we offer. My daily work involves product design (UI/UX), infrastructure and developing.`,
     },
