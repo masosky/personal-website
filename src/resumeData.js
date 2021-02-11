@@ -1,7 +1,7 @@
 let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Xavier Mas Leszkiewicz",
-  role: "Entrepeneur, Sotware Engineer, Teacher and Music producer",
+  role: "Entrepeneur, Sotware Engineer, Teacher and Music Producer. ",
   linkedinId: "xavier-mas-leszkiewicz",
   skypeid: "xmasle.telecos",
   roleDescription:
@@ -33,8 +33,8 @@ let resumeData = {
       className: "fa fa-instagram",
     }
   ],
-  aboutme: `I am a curious person who looks forward to learning things every day. I am passionate about technology, teaching, entrepreneurship and music.
-  My hobbies are calisthenics, dancing and music producing. \n
+  aboutme: `I am passionate about technology, teaching, entrepreneurship and music.
+  My hobbies are calisthenics, surfing and music producing. \n
 I obtained my postgraduate in Big Data Management and Analytics, Big Data and Data Science from the UPC School of Professional & Executive Development in 2016 and my B.S. in Audiovisual Systems Engineering (Telecommunication degree) from Universitat Politècnica de Catalunya in 2015, after completing my thesis on Object tracking using real-world coordinates at Institut für Nachrichtenübertragung in Technische Universität Berlin.`,
   currentJob: `Senior Software Engineer at Clevertech`,
   address: "Barcelona",
