@@ -11,7 +11,6 @@ import resumeData from "../resumeData";
 import ReactGA from "react-ga";
 import {Helmet} from "react-helmet";
 import {withPrefix} from "gatsby";
-import MetaTags from 'react-meta-tags';
 
 class App extends Component {
     componentDidMount() {
@@ -34,13 +33,9 @@ class App extends Component {
                     <link rel="manifest" href="manifest.json"/>
 
                     <title>Xavier Mas Leszkiewicz</title>
-                    <MetaTags>
-                        <title>Page 1</title>
-                        <meta name="description" content="Xavier's Personal Website."/>
-                        <meta property="og:title" content="Xavier's Personal Website."/>
-                        <meta property="og:image" content="images/profilepic3.jpg"/>
-                    </MetaTags>
                     <meta name="description" content="Xavier's Personal Website"/>
+                    <meta property="og:title" content="Xavier Mas Leszkiewicz."/>
+                    <meta property="og:image" content="images/profilepic3.jpg"/>
                     <link rel="stylesheet" href="css/default.css"/>
                     <link rel="stylesheet" href="css/layout.css"/>
                     <link rel="stylesheet" href="css/media-queries.css"/>
